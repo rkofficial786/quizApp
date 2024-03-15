@@ -60,7 +60,7 @@ const Solutions = () => {
             transition: "transform 0.25s",
           }}
         >
-            <div
+          <div
             className={styles.gradientLayer}
             style={{
               backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0))`,

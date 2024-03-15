@@ -51,6 +51,9 @@
     @media (max-width: 970px) {
       width: 100%;
       padding-left: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
@@ -64,11 +67,17 @@
 
   @media (max-width: 970px) {
     max-width: 90%;
+    justify-content: center;
+    align-items: center;
   }
 
   .bottomQuiz {
     margin-left: 25px;
     z-index: 100;
+
+    @media (max-width: 970px) {
+      margin-left: 0px;
+    }
   }
 
   &:first-child {
@@ -213,6 +222,10 @@
 .stepperContainer {
   width: 120%;
   z-index: 20;
+
+  @media (max-width: 970px) {
+    margin-left: 10%;
+  }
 }
 
 .leftSide {
