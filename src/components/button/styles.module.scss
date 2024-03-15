@@ -14,6 +14,7 @@
   transition: all 0.3s, transform 0.3s;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 .button:hover {
@@ -40,5 +41,6 @@
   transition: all 0.3s, transform 0.3s;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
